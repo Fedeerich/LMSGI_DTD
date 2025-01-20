@@ -1,0 +1,37 @@
+<cataleg>
+    <llista_actors>
+        <actor id="A01">
+            <nom>Toni Acosta</nom>
+        </actor>
+        <actor id="A02">
+            <nom>Nicole Wallace</nom>
+            <edat>22</edat>
+        </actor>
+        <actor id="A03">
+            <nom>Tito Valverde</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicles>
+        <pelicula id="P01">
+            <titol idioma="español">Culpa Tuya</titol>
+            <director>Domingo González</director>
+            <any>2024</any>
+            <actors>
+                <actor_ref ref="A02"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P02">
+            <titol idioma="español">¡Vaya vacaciones!</titol>
+            <director>Victor García</director>
+            <any>2023</any>
+            <actors>
+                <actor_ref ref="A01"/>
+                <actor_ref ref="A03"/>
+            </actors>
+        </pelicula>
+    </llista_pelicles>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="P01"/>
+        <recomanacio ref="P02"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
